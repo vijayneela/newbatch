@@ -78,8 +78,8 @@ chattr +i /etc/ssh/sshd_config
 Stat $? "Enable Password Login"
 
 ## Setup user passwords
-ROOT_PASS="DevOps321"
-CENTOS_PASS="DevOps321"
+ROOT_PASS="DevOps123"
+CENTOS_PASS="DevOps123"
 #usermod -a -G google-sudoers centos &>/dev/null
 echo "echo $ROOT_PASS | passwd --stdin root"   >>/etc/rc.d/rc.local 
 echo "echo $CENTOS_PASS | passwd --stdin centos"   >>/etc/rc.d/rc.local 
