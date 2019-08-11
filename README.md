@@ -51,7 +51,7 @@ Choose a service called as `EC2` and create a Server as shown.
 
 ![image](/uploads/57e780c32ccfe6a2f82be0e7fc5c9153/image.png)
 
-Owner: 973714476881
+Owner: vijayneelau1
 
 Then select the AMI and click on "Launch"
 
@@ -84,7 +84,7 @@ Select "Proceed with out KeyPair"
 
 Then use the Public IP of the server and connect it with Putty , Using the following credentials.
 
-Username / Password : root / DevOps321
+Username / Password : root / DevOps123
 
 
 ### 
